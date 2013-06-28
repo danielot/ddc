@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="./isim.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cic_decim_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/cic_decim_tb/clk_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cic_decim_tb/rst_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst_i</obj_property>
+      <obj_property name="ObjectShortName">rst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cic_decim_tb/en_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en_i</obj_property>
+      <obj_property name="ObjectShortName">en_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cic_decim_tb/val_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">val_o</obj_property>
+      <obj_property name="ObjectShortName">val_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cic_decim_tb/act_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">act_i</obj_property>
+      <obj_property name="ObjectShortName">act_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cic_decim_tb/data_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_i[24:0]</obj_property>
+      <obj_property name="ObjectShortName">data_i[24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cic_decim_tb/act_out_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">act_out_i</obj_property>
+      <obj_property name="ObjectShortName">act_out_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cic_decim_tb/data_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_o[24:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cic_decim_tb/uut/datain_extended" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">datain_extended[79:0]</obj_property>
+      <obj_property name="ObjectShortName">datain_extended[79:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cic_decim_tb/uut/integrator" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">integrator[0:4,79:0]</obj_property>
+      <obj_property name="ObjectShortName">integrator[0:4,79:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/cic_decim_tb/uut/integrator[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,79:0]</obj_property>
+         <obj_property name="ObjectShortName">integrator[0,79:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cic_decim_tb/uut/integrator[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,79:0]</obj_property>
+         <obj_property name="ObjectShortName">integrator[1,79:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cic_decim_tb/uut/integrator[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,79:0]</obj_property>
+         <obj_property name="ObjectShortName">integrator[2,79:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cic_decim_tb/uut/integrator[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,79:0]</obj_property>
+         <obj_property name="ObjectShortName">integrator[3,79:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cic_decim_tb/uut/integrator[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,79:0]</obj_property>
+         <obj_property name="ObjectShortName">integrator[4,79:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/cic_decim_tb/uut/diffdelay" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">diffdelay[0:4,0:1,79:0]</obj_property>
+      <obj_property name="ObjectShortName">diffdelay[0:4,0:1,79:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/cic_decim_tb/uut/diffdelay[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,0:1,79:0]</obj_property>
+         <obj_property name="ObjectShortName">diffdelay[0,0:1,79:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cic_decim_tb/uut/diffdelay[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,0:1,79:0]</obj_property>
+         <obj_property name="ObjectShortName">diffdelay[1,0:1,79:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cic_decim_tb/uut/diffdelay[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,0:1,79:0]</obj_property>
+         <obj_property name="ObjectShortName">diffdelay[2,0:1,79:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cic_decim_tb/uut/diffdelay[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,0:1,79:0]</obj_property>
+         <obj_property name="ObjectShortName">diffdelay[3,0:1,79:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cic_decim_tb/uut/diffdelay[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,0:1,79:0]</obj_property>
+         <obj_property name="ObjectShortName">diffdelay[4,0:1,79:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/cic_decim_tb/uut/pipe" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pipe[0:4,79:0]</obj_property>
+      <obj_property name="ObjectShortName">pipe[0:4,79:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/cic_decim_tb/uut/pipe[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,79:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe[0,79:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cic_decim_tb/uut/pipe[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,79:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe[1,79:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cic_decim_tb/uut/pipe[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,79:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe[2,79:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cic_decim_tb/uut/pipe[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,79:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe[3,79:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cic_decim_tb/uut/pipe[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,79:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe[4,79:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/cic_decim_tb/uut/sampler" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sampler[79:0]</obj_property>
+      <obj_property name="ObjectShortName">sampler[79:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/daniel.tavares/Desktop/ddc/top/poscalc_fofb_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="poscalc_fofb_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/poscalc_fofb_tb/clk_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/poscalc_fofb_tb/rst_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst_i</obj_property>
+      <obj_property name="ObjectShortName">rst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/poscalc_fofb_tb/en_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en_i</obj_property>
+      <obj_property name="ObjectShortName">en_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/poscalc_fofb_tb/act_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">act_i</obj_property>
+      <obj_property name="ObjectShortName">act_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/poscalc_fofb_tb/act_out_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">act_out_i</obj_property>
+      <obj_property name="ObjectShortName">act_out_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/poscalc_fofb_tb/val_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">val_o</obj_property>
+      <obj_property name="ObjectShortName">val_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/poscalc_fofb_tb/data_a_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_a_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_a_i[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/poscalc_fofb_tb/data_b_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_b_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_b_i[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/poscalc_fofb_tb/data_c_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_c_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_c_i[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/poscalc_fofb_tb/data_d_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_d_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_d_i[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/poscalc_fofb_tb/data_x_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_x_o[24:0]</obj_property>
+      <obj_property name="ObjectShortName">data_x_o[24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/poscalc_fofb_tb/data_y_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_y_o[24:0]</obj_property>
+      <obj_property name="ObjectShortName">data_y_o[24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/poscalc_fofb_tb/data_sum_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_sum_o[24:0]</obj_property>
+      <obj_property name="ObjectShortName">data_sum_o[24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/poscalc_fofb_tb/uut/ddc_a/i_ch/nco_lut/addr_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_i[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_i[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/poscalc_fofb_tb/uut/ddc_a/i_ch/nco_lut/data_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_o[24:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[24:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/poscalc_fofb_tb/uut/ddc_a/i_ch/data_decimated_o" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data_decimated_o[24:0]</obj_property>
+      <obj_property name="ObjectShortName">data_decimated_o[24:0]</obj_property>
+      <obj_property name="label">a\i\data_decimated_o[24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/poscalc_fofb_tb/uut/ddc_a/q_ch/data_decimated_o" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data_decimated_o[24:0]</obj_property>
+      <obj_property name="ObjectShortName">data_decimated_o[24:0]</obj_property>
+      <obj_property name="label">a\o\data_decimated_o[24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/poscalc_fofb_tb/uut/ddc_b/i_ch/data_decimated_o" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data_decimated_o[24:0]</obj_property>
+      <obj_property name="ObjectShortName">data_decimated_o[24:0]</obj_property>
+      <obj_property name="label">b\i\data_decimated_o[24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/poscalc_fofb_tb/uut/ddc_b/q_ch/data_decimated_o" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data_decimated_o[24:0]</obj_property>
+      <obj_property name="ObjectShortName">data_decimated_o[24:0]</obj_property>
+      <obj_property name="label">b\q\data_decimated_o[24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
