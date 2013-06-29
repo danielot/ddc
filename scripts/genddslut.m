@@ -1,4 +1,4 @@
-function gendddslut(filename, func, nbits_data, nbits_phase, factor)
+function genddslut(filename, func, nbits_data, nbits_phase, factor)
 
 phase_ind = 0:((2^nbits_phase)-1);
 npts = length(phase_ind);
