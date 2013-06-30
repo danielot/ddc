@@ -45,6 +45,16 @@
       <obj_property name="ObjectShortName">qdata_o[24:0]</obj_property>
       <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
+   <wvobject fp_name="/ddc_tb/idata_undecim_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">idata_undecim_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">idata_undecim_o[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddc_tb/qdata_undecim_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">qdata_undecim_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">qdata_undecim_o[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
    <wvobject fp_name="/ddc_tb/data_i" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">data_i[15:0]</obj_property>
       <obj_property name="ObjectShortName">data_i[15:0]</obj_property>
@@ -69,16 +79,6 @@
       <obj_property name="ElementShortName">addr_i[11:0]</obj_property>
       <obj_property name="ObjectShortName">addr_i[11:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/ddc_tb/i_undecim_int" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">i_undecim_int[31:0]</obj_property>
-      <obj_property name="ObjectShortName">i_undecim_int[31:0]</obj_property>
-      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/ddc_tb/q_undecim_int" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">q_undecim_int[31:0]</obj_property>
-      <obj_property name="ObjectShortName">q_undecim_int[31:0]</obj_property>
-      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/ddc_tb/uut/q_ch/nco_lut/addr_i" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">addr_i[11:0]</obj_property>

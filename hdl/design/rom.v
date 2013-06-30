@@ -16,7 +16,7 @@ module rom
   output [DATA_WIDTH-1:0] data_o
 );
 
-  reg [DATA_WIDTH-1:0] data_o;
+  reg [DATA_WIDTH-1:0] data;
   reg [DATA_WIDTH-1:0] rom [0:2**ADDR_WIDTH-1];
 
   initial
@@ -24,7 +24,9 @@ module rom
   
   always @ (posedge clk_i) begin
     if(en_i)
-      data_o <= rom[addr_i];
+      data <= rom[addr_i];
   end
+  
+  assign data_o = data;
 
 endmodule

@@ -37,7 +37,7 @@ module ddc_tb;
 
   // UUT outputs
   wire [DDCOUT_WIDTH-1:0]    data_amplitude_o;
-  wire [DDCOUT_WIDTH-1:0]    data_phase_o;
+  wire [DDCOUT_WIDTH:0]      data_phase_o;
   wire [DDCOUT_WIDTH-1:0]    idata_o;
   wire [DDCOUT_WIDTH-1:0]    qdata_o;
   wire [DATAMIXED_WIDTH-1:0] idata_undecim_o;

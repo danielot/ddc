@@ -25,7 +25,7 @@ module ddc
   input                        en_i,
   input  [DATAIN_WIDTH-1:0]    data_i,
   output [DATAOUT_WIDTH-1:0]   data_amplitude_o,
-  output [DATAOUT_WIDTH-1:0]   data_phase_o,
+  output [DATAOUT_WIDTH:0]     data_phase_o,
   output [DATAOUT_WIDTH-1:0]   idata_o,
   output [DATAOUT_WIDTH-1:0]   qdata_o,
   output [DATAMIXED_WIDTH-1:0] idata_undecim_o,

@@ -16,7 +16,7 @@ module mult
   reg signed [A_WIDTH-1:0] a_reg;
   reg signed [B_WIDTH-1:0] b_reg;
   reg        [A_WIDTH+B_WIDTH-1:0] mult_reg0, mult_reg1, mult_reg2;
-  reg        [O_WIDTH-1:0] mult_o;
+  reg        [O_WIDTH-1:0] mult;
   
   always @(posedge clk_i) begin
     if (en_i) begin
@@ -25,8 +25,10 @@ module mult
       mult_reg0 <= a_reg*b_reg;
       mult_reg1 <= mult_reg0;
       mult_reg2 <= mult_reg1;
-      mult_o    <= mult_reg2[(A_WIDTH+B_WIDTH-1):(A_WIDTH+B_WIDTH-O_WIDTH)];
+      mult      <= mult_reg2[(A_WIDTH+B_WIDTH-1):(A_WIDTH+B_WIDTH-O_WIDTH)];
     end
   end
+  
+  assign mult_o = mult;
 
 endmodule
