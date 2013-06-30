@@ -20,7 +20,7 @@ y_hex(index_y_neg) = bitcmp(abs(y_scaled(index_y_neg))-1,nco_width);
 fid = fopen(filename,'w');
 try
   for i=1:npts
-    fprintf(fid, '%X\n', y_scaled(i));
+    fprintf(fid, '%X\n', y_hex(i));
   end
 end
 fclose(fid);
